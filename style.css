@@ -6,39 +6,54 @@
     font-family: 'Cookie', cursive, serif;
 }
 .hero__title {
-    color: white;
+    color: #fff9ee;
     text-align: center;
-    font-size: 4em;
+    font-size: 5em;
     font-weight: 400;
     padding-top: 25%;
 }
 .hero__subtitle {
     color: antiquewhite;
     text-align: center;
-    font-size: 2em;
+    font-size: 2.5em;
     font-weight: 400;
-    margin: 0.5em 0;
+    margin: auto;
 }
 .buttons {
     display: flex;
     justify-content: space-around;
     flex-direction: column;
+    margin: 15px 0;
 }
-@media (min-width: 800px) {
+
+.hero__button {
+    border: none;
+    text-decoration: none;
+    padding: 15px 32px;
+
+    border-radius: 0.25em;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1em;
+    margin: auto;
+    margin-top: 10px;
+    width: 30%;
+    height: 3.5em;
+    max-width: 400px;
+    min-width: 200px;
+}
+.hero__button--facebook {
+    background-color: #3B5998;
+}
+.hero__button--instagram {
+    background: linear-gradient(90deg, rgba(255,214,0,1) 0%, rgba(255,122,0,1) 50%, rgba(255,0,105,1) 100%);
+}
+@media (min-width: 600px) {
     .buttons {
         flex-direction: row;
     }
-    .hero__title {font-size: 10em}
-    .hero__subtitle {font-size: 5em}
-}
-.hero__button {
-    background-color: #4CAF50; /* Green */
-    border: none;
-    border-radius: 0.25em;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
+    .hero__title {font-size: 15vw}
+    .hero__subtitle {font-size: 8vw}
+    .hero__button {font-size: 4vw}
 }
