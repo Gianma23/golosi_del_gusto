@@ -1,16 +1,19 @@
 .hero {
     background: linear-gradient(rgba(0, 0, 0, 0.3) 5%, rgba(0, 0, 0, 0.8)),  url("images/background.jpg");
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 125%;
+    background-position: 40% 0%;
     font-size: 16px;
     font-family: 'Cookie', cursive, serif;
+    padding-bottom: 1em;
 }
 .hero__title {
     color: #fff9ee;
     text-align: center;
     font-size: 5em;
+    line-height: 0.8em;
     font-weight: 400;
-    padding-top: 25%;
+    padding-top: 20%;
 }
 .hero__subtitle {
     color: antiquewhite;
@@ -53,7 +56,7 @@
     .buttons {
         flex-direction: row;
     }
-    .hero__title {font-size: 15vw}
-    .hero__subtitle {font-size: 8vw}
+    .hero__title {font-size: 25vw}
+    .hero__subtitle {font-size: 10vw}
     .hero__button {font-size: 4vw}
 }
