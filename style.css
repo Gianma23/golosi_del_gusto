@@ -1,8 +1,11 @@
+body {
+    background-color: antiquewhite;
+}
 .hero {
     background: linear-gradient(rgba(0, 0, 0, 0.3) 5%, rgba(0, 0, 0, 0.8)),  url("images/background.jpg");
     background-repeat: no-repeat;
     background-size: 125%;
-    background-position: 40% 0%;
+    background-position: 40% 0;
     font-size: 16px;
     font-family: 'Cookie', cursive, serif;
     padding-bottom: 1em;
